@@ -1,0 +1,15 @@
+// Codsoft intership
+// TASK 1
+//Question 2                                 
+import java.util.*;
+class kapilchauhan{
+    public static void main(String[] args ){
+        double b = Math.random();
+        int range = 100;
+        int a = ((int)(b*range)) + 1 ;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Guess a number  ");
+        int s = sc.nextInt();
+        System.out.println("You guess " + s +" , Generated number be " + a);
+    }
+}
