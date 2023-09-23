@@ -1,0 +1,12 @@
+// Codsoft intership
+// TASK 1
+//Question 1                                 
+import java.util.*;
+class kapilchauhan{
+    public static void main(String[] args ){
+        double b = Math.random();
+        int range = 100;
+        int a = ((int)(b*range)) + 1 ;
+        System.out.println( a);
+    }
+}
