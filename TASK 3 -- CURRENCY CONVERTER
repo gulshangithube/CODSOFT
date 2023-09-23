@@ -1,0 +1,49 @@
+// # Codsoft Internship
+// # Java Internship
+// TASK 3 -- CURRENCY CONVERTER
+// Currency converter
+import java.util.*;
+class kapil_kumar{
+    public static void main(String [] args){
+    int a = 1; // 1 represent rs 
+    int b = 2; // 2 represents dollar
+    int c = 3; // // 3 represents euro
+    System.out.println("\n 'Rs represented by  integer 1' " + "\n 'Dollar represented by integer 2' " + " \n 'Euro represented by integer 3' " );
+   // double m = num1*1.125;
+        Scanner sc = new Scanner(System.in);
+    System.out.println(" What currency you have "   );
+    int s =  sc.nextInt();
+   // System.out.println("Write Rs in no");
+    //int num1 = sc.nextInt();
+    //System.out.println(s);
+    System.out.println(" To which currency you want to convert ");
+    int ss = sc.nextInt();
+    System.out.println(" Write numbers of your base currency ");
+    int num1 = sc.nextInt();
+  //  condition1: s==a;
+    //condition2: ss==b;
+    if((s ==a)&&(ss ==b )){
+      System.out.println("$" +num1*.0125+" Dollars");
+        
+    }
+    
+    else if(s ==a && ss ==c){
+        System.out.println(num1*.0111+" Euros"   );
+    }
+    else if((s ==b) && (ss ==c)){
+        System.out.println( num1*1.125+" Euros");
+    }
+    else if((s ==b) && (ss ==a)){
+        System.out.println(80*num1+" Rs");
+    }
+    else if((s==c) && (ss==a)){
+        System.out.println(num1*90+" Rs");
+    }
+    else if((s==c) && (ss==b)){
+        System.out.println( .888*num1+"Dollars" );
+    }
+    else{
+        System.out.println("You are converting to same currency");
+    }
+    }
+}
