@@ -1,0 +1,54 @@
+// # CODSOFT INTERNSHIP
+// # JAVA INTERNSHIP
+// TASK 2
+// # STUDENT GRADE CALCULATOR
+import java.util.*;
+class kapil_kumar{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter marks of subject 1 = ");
+        int num1 = sc.nextInt();
+        //System.out.println(num1);
+        System.out.println("Enter marks of subject 2 = ");
+        int num2 = sc.nextInt();
+        System.out.println("Enter marks of subject 3 = ");
+        int num3 = sc.nextInt();
+        System.out.println("Enter marks of subject 4 = ");
+        int num4 = sc.nextInt();
+        System.out.println("Enter marks of subject 5 = ");
+        int num5 = sc.nextInt();
+        System.out.println("Enter marks of subject  = ");
+        int num = num1+num2+num3+num4+num5 ;
+        System.out.println(" Total marks of student be " + num );
+        double per = (num*100)/500;
+        System.out.println(" Average Percentage of student be " + per );
+        if (per<30){
+            System.out.println(" Student got E Grade ");
+        }
+        else if (per<45){
+            System.out.println(" Student got D grade ");
+        }
+        else if(per<60){
+             System.out.println(" Student got c grade ");
+            
+        }
+        else if(per<70){
+            System.out.println(" Student got B grade");
+        }
+        else if (per<80){
+            System.out.println(" Student got B+ Grade ");
+        }
+        else if(per < 85){
+            System.out.println(" Student got A grade");
+        }
+        else if(per < 90){
+            System.out.println(" Student got A+ grade");
+        }
+        else {
+            System.out.println(" Student got A++ grade " + " \nThis Student is brilliant.");
+        }
+        
+   
+}
+    
+}
